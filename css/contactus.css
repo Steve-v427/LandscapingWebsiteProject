@@ -1,0 +1,107 @@
+/*Override default brower behavior*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #484850;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #19191c;
+  padding: 25px;
+  color: aliceblue;
+}
+
+.nav-links a {
+  color: azure;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 28px;
+  justify-content: space-between;
+}
+
+.menu li:hover {
+  background-color: burlywood;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 15px;
+}
+h1 {
+  text-align: center;
+  color: azure;
+  padding: 10px;
+}
+
+form {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: azure;
+}
+
+label {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  align-items: center;
+  text-align: center;
+  width: 15%;
+  color: rgb(18, 20, 20);
+  margin: 10px 0;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* textarea {
+  text-align: center;
+} */
+#cust-info {
+  font-size: 24px;
+}
+
+#custtext {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#subbutton {
+  background-color: aqua;
+  font-size: 24px;
+}
+
+footer {
+  background: azure;
+  text-align: center;
+  padding: 8px;
+}

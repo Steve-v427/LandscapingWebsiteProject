@@ -1,0 +1,108 @@
+/*Override default brower behavior*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* :is(.navbar) {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #19191c;
+  padding: 25px;
+  color: aliceblue;
+}
+
+.nav-links a {
+  color: azure;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 28px;
+  justify-content: space-between;
+}
+
+.menu li:hover {
+  background-color: burlywood;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 15px;
+}
+
+/* .logo{
+  width: 25px;
+  height: ;
+
+} */
+
+body {
+  background: #484850;
+}
+
+section {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+}
+
+h1 {
+  text-align: center;
+  color: azure;
+  padding: 15px;
+}
+section h1 {
+  color: #000;
+}
+
+p {
+  font-size: 26px;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  text-align: center;
+  padding: 0;
+  font-size: 24px;
+}
+
+a {
+  color: blue;
+}
+
+li {
+  margin: 10px 0;
+}
+
+footer {
+  background: azure;
+  text-align: center;
+  padding: 8px;
+}

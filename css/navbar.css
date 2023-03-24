@@ -1,0 +1,139 @@
+/*Override default brower behavior*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #484850;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Nav Bar styling  */
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #19191c;
+  padding: 25px;
+  color: aliceblue;
+}
+
+.nav-links a {
+  color: azure;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 28px;
+  justify-content: space-between;
+}
+
+.menu li:hover {
+  background-color: burlywood;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 15px;
+}
+
+/* .logo{
+  width: 25px;
+  height: ;
+} */
+h1 {
+  text-align: center;
+  color: azure;
+  padding: 8px;
+}
+
+.body-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.section {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: justify;
+  margin-left: 20px;
+}
+.section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.section p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: black;
+}
+
+#imagedis {
+  color: azure;
+  text-align: center;
+}
+
+.left-section {
+  background-color: white;
+}
+.right-section {
+  background-color: #484850;
+}
+
+.container {
+  flex-direction: column;
+  height: auto;
+}
+.section {
+  flex-direction: column;
+  height: auto;
+}
+
+#Slogo {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+a {
+  color: blue;
+}
+
+#Plink {
+  text-align: center;
+}
+
+footer {
+  background: azure;
+  text-align: center;
+  margin: auto;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 8px;
+}

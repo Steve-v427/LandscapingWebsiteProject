@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Genesis</title>
+
+    <link href="../css/about.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app-container" class="container-class">
+      <!--Header for the navbar as an html list-->
+      <header id="Website-Header">
+        <nav id="navigation-bar" class="navbar">
+          <!--NAVBAR LOGO-->
+          <div class="navlogo">
+            <img
+              src="../images/Logo.PNG"
+              alt="Website Logo"
+              width="450px"
+              height="150px"
+            />
+          </div>
+          <!-- navbar menu options -->
+          <ul class="nav-links">
+            <!-- Place holder for responsive nav Hamburger Menu icon-->
+            <!-- <input type="checkbox" id="checkbox_toggle" /> -->
+
+            <!-- NavBar menu options -->
+            <div class="menu">
+              <li><a href="../index.html"> Home</a></li>
+              <li><a href="./About.html"> About</a></li>
+              <li><a href="./services.html"> Services</a></li>
+              <!-- drop down for services -->
+              <li><a href="./PastProjects.html"> Past Projects</a></li>
+              <li><a href="./ContactUS.html"> Contact US</a></li>
+            </div>
+          </ul>
+        </nav>
+        <hr />
+      </header>
+      <!-----Main Body of page--->
+      <main id="website-body" class="About-body">
+        <h1>About Genesis</h1>
+        <!-- Section for the about paragraphs -->
+        <section>
+          <img src="../images/SmallLogo.PNG" class="Slogo" />
+          <p>
+            Our professional landscaping services exist to transform your home
+            or business into a beautiful and functional property that impresses
+            visitors and increases value. For over 30 years Genesis Artistic
+            Landscapes has provided Southeast Michigan with excelent Landscaping
+            services. Our team goes above and beyond on every project to make
+            sure our clients are 100% satisfied and the job gets done right.
+          </p>
+          <p>
+            The experienced team at Genesis takes great pride in providing the
+            best in quality and service in the landscaping industry. Our
+            professionals work closely with customers to provide an experience
+            that is easy and stress-free. Our professionals will help you create
+            the landscape you have always wanted at an affordable price.
+          </p>
+
+          <!-- Creates the quote Button on the page   -->
+          <button id="quote-button">Click me to get a famous quote</button>
+          <!-- Links the dom to the JS File  -->
+          <script src="../js/quotebutton.js"></script>
+        </section>
+      </main>
+    </div>
+  </body>
+
+  <!-- Website footer with 2023 copyright -->
+  <footer id="Website-footer">
+    <span id="footer-text">
+      Copyright of Genesis Artistic Landscapes &copy; 2023</span
+    >
+  </footer>
+</html>
